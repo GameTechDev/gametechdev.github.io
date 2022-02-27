@@ -1,0 +1,2039 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script
+      src="https://kit.fontawesome.com/59ba4b56ec.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="http://code.jquery.com/jquery-migrate-3.0.0.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <script src="/assets/js/script-min.js"></script>
+    <!--IGHF Loader-->
+    <!--[if le IE 9]>
+      <script
+        type="text/javascript"
+        src="https://www.intel.com/ighf/50recode.2/js/headerchooser.js"
+        async
+        defer
+      ></script>
+    <![endif]-->
+    <!--[if gt IE 9]><!-->
+    <script
+      type="text/javascript"
+      src="https://www.intel.com/ighf/50recode.2/js/headerchooser.js"
+      async
+    ></script>
+    <!--<![endif]-->
+    <script>
+      INTELNAV = window.INTELNAV || {};
+      INTELNAV.renderSettings = {
+        version: "2.0 - 03/12/2017 08:00:00",
+        textDirection: "--",
+        culture: "--",
+        OutputId: "--",
+      };
+    </script>
+    <!--/IGHF Loader-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://gametechdev.github.io/assets/css/main.css"
+    />
+
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+    <title>Projects and Source Code | GameTechDev</title>
+    <meta name="generator" content="Jekyll v4.2.0" />
+    <meta property="og:title" content="Projects and Source Code" />
+    <meta property="og:locale" content="en_US" />
+    <meta
+      name="description"
+      content="Helping developers create the best gaming experiences on Intel graphics processors."
+    />
+    <meta
+      property="og:description"
+      content="Helping developers create the best gaming experiences on Intel graphics processors."
+    />
+    <link rel="canonical" href="https://gametechdev.github.io/projects.html" />
+    <meta
+      property="og:url"
+      content="https://gametechdev.github.io/projects.html"
+    />
+    <meta property="og:site_name" content="GameTechDev" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="twitter:title" content="Projects and Source Code" />
+    <meta name="twitter:site" content="@intel" />
+    <script type="application/ld+json">
+      {
+        "description": "Helping developers create the best gaming experiences on Intel graphics processors.",
+        "headline": "Projects and Source Code",
+        "url": "https://gametechdev.github.io/projects.html",
+        "@type": "WebPage",
+        "@context": "https://schema.org"
+      }
+    </script>
+    <!-- End Jekyll SEO tag -->
+  </head>
+
+  <body>
+    <!--IGHF Header-->
+    <!--GAATversion='50recode.2' date='09/11/2017 08:00:00' Version='2.0':CharacterEncoding:utf8-->
+    <div id="recode50header" class="no-animate"></div>
+    <script type="text/javascript">
+      /*<![CDATA[*/
+      INTELNAV = window.INTELNAV || {};
+      INTELNAV.renderSettings = {
+        version: "2.0 - 03/12/2017 08:00:00",
+        textDirection: "ltr",
+        culture: "en_US",
+        OutputId: "default",
+      };
+      /*]]>*/
+    </script>
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://www.intel.com/ighf/50recode.2/css/ltr_nojsheader.css"
+        type="text/css"
+      />
+      <div id="smallfootprint-header">
+        <a
+          href="https://www.intel.com/content/www/us/en/homepage.html"
+          class="gaat40-logo"
+          title="Logo - Intel"
+        ></a>
+        <form
+          method="get"
+          id="user-bar-searchbox-form"
+          name="user-bar-searchbox-form"
+          action="https://www.intel.com/content/www/us/en/search.html"
+        >
+          <fieldset>
+            <legend></legend>
+            <label for="input-search">Search</label
+            ><input type="text" id="input-search" name="keyword" /><input
+              type="submit"
+              id="input-submit"
+              name="input-submit"
+              value="Search"
+            />
+          </fieldset>
+        </form>
+      </div>
+    </noscript>
+    <!--/IGHF Header-->
+    <header>
+      <div class="header-left">
+        <a href="https://gametechdev.github.io">
+          <div class="logo">
+            <img
+              src="https://gametechdev.github.io/assets/img/logo.svg"
+              alt="Intel®"
+            />
+          </div>
+        </a>
+
+        <h1><a href="https://gametechdev.github.io">GameTechDev</a></h1>
+      </div>
+
+      <div id="mobile-menu-toggle">
+        <i id="menu-i" class="far fa-fw fa-bars" onClick="menuToggler()"></i>
+        <i
+          id="close-i"
+          class="far fa-fw fa-times"
+          onClick="menuToggler()"
+          style="display: none"
+        ></i>
+      </div>
+
+      <nav id="header-nav">
+        <ul>
+          <li class="active">
+            <a href="https://gametechdev.github.io/projects">Projects</a>
+          </li>
+
+          <li class="">
+            <a href="https://gametechdev.github.io/documentation"
+              >Documentation</a
+            >
+          </li>
+
+          <li class="">
+            <a href="https://gametechdev.github.io/tools-and-libraries"
+              >Tools and Libraries</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Projects and Source Code</h1>
+
+      <section class="split-contents">
+        <div></div>
+        <form
+          class="search-input-container"
+          id="search"
+          onsubmit="searchCards(event);"
+        >
+          <input
+            type="text"
+            placeholder="Search"
+            id="projects-search"
+            onblur="searchCards(event)"
+          /><button
+            class="search-button"
+            type="button"
+            onclick="searchCards(event)"
+          >
+            <i class="fas fa-fw fa-2x fa-caret-right"></i>
+          </button>
+        </form>
+      </section>
+      <hr class="section-hr" />
+      <section class="split-contents">
+        <button class="filters-toggle" onClick="toggleFiltersVis()">
+          Topics <i class="far"></i>
+        </button>
+        <select name="sort" id="card-sort" onChange="cardSort(this);">
+          <option value="updated">Last Updated</option>
+          <option value="alpha">Alphabetical A-Z</option>
+        </select>
+      </section>
+      <section class="filters-container">
+        <ul class="filters">
+          <li
+            class="filter-item"
+            data-tag-id="antialiasing"
+            onClick="singleFilterToggle('antialiasing', this)"
+          >
+            <i class="far fa-fw fa-square unselected"></i
+            ><i class="far fa-fw fa-check-square selected"></i
+            ><span>antialiasing</span>
+          </li>
+
+          <li
+            class="filter-item"
+            data-tag-id="directx12"
+            onClick="singleFilterToggle('directx12', this)"
+          >
+            <i class="far fa-fw fa-square unselected"></i
+            ><i class="far fa-fw fa-check-square selected"></i
+            ><span>directx12</span>
+          </li>
+
+          <li
+            class="filter-item"
+            data-tag-id="graphics"
+            onClick="singleFilterToggle('graphics', this)"
+          >
+            <i class="far fa-fw fa-square unselected"></i
+            ><i class="far fa-fw fa-check-square selected"></i
+            ><span>graphics</span>
+          </li>
+
+          <li
+            class="filter-item"
+            data-tag-id="ispc"
+            onClick="singleFilterToggle('ispc', this)"
+          >
+            <i class="far fa-fw fa-square unselected"></i
+            ><i class="far fa-fw fa-check-square selected"></i><span>ispc</span>
+          </li>
+
+          <li
+            class="filter-item"
+            data-tag-id="sample"
+            onClick="singleFilterToggle('sample', this)"
+          >
+            <i class="far fa-fw fa-square unselected"></i
+            ><i class="far fa-fw fa-check-square selected"></i
+            ><span>sample</span>
+          </li>
+
+          <li
+            class="filter-item"
+            data-tag-id="tool"
+            onClick="singleFilterToggle('tool', this)"
+          >
+            <i class="far fa-fw fa-square unselected"></i
+            ><i class="far fa-fw fa-check-square selected"></i><span>tool</span>
+          </li>
+
+          <li
+            class="filter-item"
+            data-tag-id="tutorial"
+            onClick="singleFilterToggle('tutorial', this)"
+          >
+            <i class="far fa-fw fa-square unselected"></i
+            ><i class="far fa-fw fa-check-square selected"></i
+            ><span>tutorial</span>
+          </li>
+
+          <li
+            class="filter-item"
+            data-tag-id="vulkan"
+            onClick="singleFilterToggle('vulkan', this)"
+          >
+            <i class="far fa-fw fa-square unselected"></i
+            ><i class="far fa-fw fa-check-square selected"></i
+            ><span>vulkan</span>
+          </li>
+        </ul>
+      </section>
+      <section id="projects">
+        <section
+          class="box-container project-card"
+          data-project-name="IntroductionToVulkan"
+          data-tags="cpp, intel, tutorial, tutorials, vulkan, vulkan-api, vulkan-demos"
+        >
+          <div class="card-contents">
+            <div class="card-left">
+              <div class="detail-container">
+                <span class="detail">Created: 03/11/2016</span>
+
+                <span
+                  class="detail"
+                  id="card-updated"
+                  data-card-updated="2022-02-16T22:35:09Z"
+                  >Updated: 02/16/2022</span
+                >
+              </div>
+              <h2>
+                <a
+                  href="https://github.com/GameTechDev/IntroductionToVulkan#readme"
+                  >IntroductionToVulkan</a
+                >
+              </h2>
+              <p>
+                Source code examples for "API without Secrets: Introduction to
+                Vulkan" tutorial
+              </p>
+              <div class="detail-container">
+                <span class="detail"
+                  ><i class="far fa-fw fa-balance-scale"></i>: Apache License
+                  2.0</span
+                >
+
+                <span class="detail"
+                  ><i class="far fa-fw fa-hashtag"></i>: cpp
+                  <span class="tag-spacer">|</span> intel
+                  <span class="tag-spacer">|</span> tutorial
+                  <span class="tag-spacer">|</span> tutorials
+                  <span class="tag-spacer">|</span> vulkan
+                  <span class="tag-spacer">|</span> vulkan-api
+                  <span class="tag-spacer">|</span> vulkan-demos
+                </span>
+              </div>
+              <div>
+                <a
+                  href="https://software.intel.com/en-us/articles/api-without-secrets-introduction-to-vulkan-preface"
+                  class="box-link"
+                  >Article</a
+                >
+              </div>
+            </div>
+
+            <div class="card-right">
+              <div class="img-container">
+                <a
+                  href="https://github.com/GameTechDev/IntroductionToVulkan#readme"
+                >
+                  <img
+                    src="https://gametechdev.github.io/assets/img/thumb/IntroductionToVulkan.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="box-container project-card"
+          data-project-name="ISPCTextureCompressor"
+          data-tags="ispc, tool"
+        >
+          <div class="card-contents">
+            <div class="card-left">
+              <div class="detail-container">
+                <span class="detail">Created: 09/08/2015</span>
+
+                <span
+                  class="detail"
+                  id="card-updated"
+                  data-card-updated="2022-02-08T18:31:36Z"
+                  >Updated: 02/08/2022</span
+                >
+              </div>
+              <h2>
+                <a
+                  href="https://github.com/GameTechDev/ISPCTextureCompressor#readme"
+                  >ISPCTextureCompressor</a
+                >
+              </h2>
+              <p>ISPC Texture Compressor</p>
+              <div class="detail-container">
+                <span class="detail"
+                  ><i class="far fa-fw fa-balance-scale"></i>: MIT License</span
+                >
+
+                <span class="detail"
+                  ><i class="far fa-fw fa-hashtag"></i>: ispc
+                  <span class="tag-spacer">|</span> tool
+                </span>
+              </div>
+              <div></div>
+            </div>
+
+            <div class="card-right">
+              <div class="img-container">
+                <a
+                  href="https://github.com/GameTechDev/ISPCTextureCompressor#readme"
+                >
+                  <img
+                    src="https://gametechdev.github.io/assets/img/thumb/ISPCTextureCompressor.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="box-container project-card"
+          data-project-name="gpudetect"
+          data-tags=""
+        >
+          <div class="card-contents">
+            <div class="card-left">
+              <div class="detail-container">
+                <span class="detail">Created: 05/04/2016</span>
+
+                <span
+                  class="detail"
+                  id="card-updated"
+                  data-card-updated="2022-02-01T22:09:54Z"
+                  >Updated: 02/01/2022</span
+                >
+              </div>
+              <h2>
+                <a href="https://github.com/GameTechDev/gpudetect#readme"
+                  >gpudetect</a
+                >
+              </h2>
+              <p>
+                An example application that demonstrates how to detect which
+                Intel GPU is present, as well as architecture-specific
+                information such as how much memory is available.
+              </p>
+              <div class="detail-container">
+                <span class="detail"
+                  ><i class="far fa-fw fa-balance-scale"></i>: Apache License
+                  2.0</span
+                >
+              </div>
+              <div></div>
+            </div>
+
+            <div class="card-right">
+              <div class="img-container">
+                <a href="https://github.com/GameTechDev/gpudetect#readme">
+                  <img
+                    src="https://gametechdev.github.io/assets/img/thumb/gpudetect.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="box-container project-card"
+          data-project-name="SamplerFeedbackStreaming"
+          data-tags="directx12"
+        >
+          <div class="card-contents">
+            <div class="card-left">
+              <div class="detail-container">
+                <span class="detail">Created: 06/21/2021</span>
+
+                <span
+                  class="detail"
+                  id="card-updated"
+                  data-card-updated="2022-01-31T05:35:59Z"
+                  >Updated: 01/31/2022</span
+                >
+              </div>
+              <h2>
+                <a
+                  href="https://github.com/GameTechDev/SamplerFeedbackStreaming#readme"
+                  >SamplerFeedbackStreaming</a
+                >
+              </h2>
+              <p>
+                This sample uses D3D12 Sampler Feedback as part of an
+                asynchronous texture streaming solution.
+              </p>
+              <div class="detail-container">
+                <span class="detail"
+                  ><i class="far fa-fw fa-balance-scale"></i>: MIT License</span
+                >
+
+                <span class="detail"
+                  ><i class="far fa-fw fa-hashtag"></i>: directx12
+                </span>
+              </div>
+              <div></div>
+            </div>
+
+            <div class="card-right">
+              <div class="img-container">
+                <a
+                  href="https://github.com/GameTechDev/SamplerFeedbackStreaming#readme"
+                >
+                  <img
+                    src="https://gametechdev.github.io/assets/img/thumb/SamplerFeedbackStreaming.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="box-container project-card"
+          data-project-name="XeGTAO"
+          data-tags=""
+        >
+          <div class="card-contents">
+            <div class="card-left">
+              <div class="detail-container">
+                <span class="detail">Created: 08/09/2021</span>
+
+                <span
+                  class="detail"
+                  id="card-updated"
+                  data-card-updated="2021-12-28T01:45:01Z"
+                  >Updated: 12/28/2021</span
+                >
+              </div>
+              <h2>
+                <a href="https://github.com/GameTechDev/XeGTAO#readme"
+                  >XeGTAO</a
+                >
+              </h2>
+              <p>
+                An implementation of [Jimenez et al., 2016] Ground Truth Ambient
+                Occlusion, MIT license
+              </p>
+              <div class="detail-container">
+                <span class="detail"
+                  ><i class="far fa-fw fa-balance-scale"></i>: MIT License</span
+                >
+              </div>
+              <div></div>
+            </div>
+
+            <div class="card-right">
+              <div class="img-container">
+                <a href="https://github.com/GameTechDev/XeGTAO#readme">
+                  <img
+                    src="https://gametechdev.github.io/assets/img/thumb/XeGTAO.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="box-container project-card"
+          data-project-name="HybridDetect"
+          data-tags=""
+        >
+          <div class="card-contents">
+            <div class="card-left">
+              <div class="detail-container">
+                <span class="detail">Created: 09/09/2021</span>
+
+                <span
+                  class="detail"
+                  id="card-updated"
+                  data-card-updated="2021-10-18T21:32:52Z"
+                  >Updated: 10/18/2021</span
+                >
+              </div>
+              <h2>
+                <a href="https://github.com/GameTechDev/HybridDetect#readme"
+                  >HybridDetect</a
+                >
+              </h2>
+              <p>Heterogeneous & Homogeneous CPU Detect for Intel Processors</p>
+              <div class="detail-container">
+                <span class="detail"
+                  ><i class="far fa-fw fa-balance-scale"></i>: MIT License</span
+                >
+              </div>
+              <div></div>
+            </div>
+
+            <div class="card-right">
+              <div class="img-container">
+                <a href="https://github.com/GameTechDev/HybridDetect#readme">
+                  <img
+                    src="https://gametechdev.github.io/assets/img/thumb/HybridDetect.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="box-container project-card"
+          data-project-name="UE4_GPA_Plugin"
+          data-tags=""
+        >
+          <div class="card-contents">
+            <div class="card-left">
+              <div class="detail-container">
+                <span class="detail">Created: 03/11/2021</span>
+
+                <span
+                  class="detail"
+                  id="card-updated"
+                  data-card-updated="2021-09-27T23:04:03Z"
+                  >Updated: 09/27/2021</span
+                >
+              </div>
+              <h2>
+                <a href="https://github.com/GameTechDev/UE4_GPA_Plugin#readme"
+                  >UE4_GPA_Plugin</a
+                >
+              </h2>
+              <p>
+                Intel® Graphics Performance Analyzer plugin for Unreal Engine* 4
+              </p>
+              <div class="detail-container">
+                <span class="detail"
+                  ><i class="far fa-fw fa-balance-scale"></i>: MIT License</span
+                >
+              </div>
+              <div></div>
+            </div>
+
+            <div class="card-right">
+              <div class="img-container">
+                <a href="https://github.com/GameTechDev/UE4_GPA_Plugin#readme">
+                  <img
+                    src="https://gametechdev.github.io/assets/img/thumb/UE4_GPA_Plugin.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="box-container project-card"
+          data-project-name="ASSAO"
+          data-tags=""
+        >
+          <div class="card-contents">
+            <div class="card-left">
+              <div class="detail-container">
+                <span class="detail">Created: 11/02/2016</span>
+
+                <span
+                  class="detail"
+                  id="card-updated"
+                  data-card-updated="2021-09-03T22:07:08Z"
+                  >Updated: 09/03/2021</span
+                >
+              </div>
+              <h2>
+                <a href="https://github.com/GameTechDev/ASSAO#readme">ASSAO</a>
+              </h2>
+              <p>Adaptive Screen Space Ambient Occlusion</p>
+              <div class="detail-container">
+                <span class="detail"
+                  ><i class="far fa-fw fa-balance-scale"></i>: MIT License</span
+                >
+              </div>
+              <div></div>
+            </div>
+
+            <div class="card-right">
+              <div class="img-container">
+                <a href="https://github.com/GameTechDev/ASSAO#readme">
+                  <img
+                    src="https://gametechdev.github.io/assets/img/thumb/ASSAO.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="box-container project-card"
+          data-project-name="PresentMon"
+          data-tags="tool"
+        >
+          <div class="card-contents">
+            <div class="card-left">
+              <div class="detail-container">
+                <span class="detail">Created: 03/09/2016</span>
+
+                <span
+                  class="detail"
+                  id="card-updated"
+                  data-card-updated="2021-09-03T13:02:53Z"
+                  >Updated: 09/03/2021</span
+                >
+              </div>
+              <h2>
+                <a href="https://github.com/GameTechDev/PresentMon#readme"
+                  >PresentMon</a
+                >
+              </h2>
+              <p>
+                Tool for collection and processing of ETW events related to
+                frame presentation on Windows.
+              </p>
+              <div class="detail-container">
+                <span class="detail"
+                  ><i class="far fa-fw fa-balance-scale"></i>: MIT License</span
+                >
+
+                <span class="detail"
+                  ><i class="far fa-fw fa-hashtag"></i>: tool
+                </span>
+              </div>
+              <div></div>
+            </div>
+
+            <div class="card-right">
+              <div class="img-container">
+                <a href="https://github.com/GameTechDev/PresentMon#readme">
+                  <img
+                    src="https://gametechdev.github.io/assets/img/thumb/PresentMon.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="box-container project-card"
+          data-project-name="GTS-GamesTaskScheduler"
+          data-tags=""
+        >
+          <div class="card-contents">
+            <div class="card-left">
+              <div class="detail-container">
+                <span class="detail">Created: 03/18/2019</span>
+
+                <span
+                  class="detail"
+                  id="card-updated"
+                  data-card-updated="2021-08-05T00:19:49Z"
+                  >Updated: 08/05/2021</span
+                >
+              </div>
+              <h2>
+                <a
+                  href="https://github.com/GameTechDev/GTS-GamesTaskScheduler#readme"
+                  >GTS-GamesTaskScheduler</a
+                >
+              </h2>
+              <p>
+                A task scheduling framework designed for the needs of game
+                developers.
+              </p>
+              <div class="detail-container">
+                <span class="detail"
+                  ><i class="far fa-fw fa-balance-scale"></i>: MIT License</span
+                >
+              </div>
+              <div></div>
+            </div>
+
+            <div class="card-right">
+              <div class="img-container">
+                <a
+                  href="https://github.com/GameTechDev/GTS-GamesTaskScheduler#readme"
+                >
+                  <img
+                    src="https://gametechdev.github.io/assets/img/thumb/GTS-GamesTaskScheduler.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="box-container project-card"
+          data-project-name="Intel-Texture-Works-Plugin"
+          data-tags=""
+        >
+          <div class="card-contents">
+            <div class="card-left">
+              <div class="detail-container">
+                <span class="detail">Created: 10/03/2015</span>
+
+                <span
+                  class="detail"
+                  id="card-updated"
+                  data-card-updated="2021-04-23T23:03:56Z"
+                  >Updated: 04/23/2021</span
+                >
+              </div>
+              <h2>
+                <a
+                  href="https://github.com/GameTechDev/Intel-Texture-Works-Plugin#readme"
+                  >Intel-Texture-Works-Plugin</a
+                >
+              </h2>
+              <p>
+                Intel has extended Photoshop* to take advantage of the latest
+                image compression methods (BCn/DXT) via plugin. The purpose of
+                this plugin is to provide a tool for artists to access superior
+                compression results at optimized compression speeds within
+                Photoshop*.
+              </p>
+              <div class="detail-container">
+                <span class="detail"
+                  ><i class="far fa-fw fa-balance-scale"></i>: Apache License
+                  2.0</span
+                >
+              </div>
+              <div>
+                <a
+                  href="https://software.intel.com/en-us/articles/intel-texture-compression-plugin-for-photoshop"
+                  class="box-link"
+                  >Article</a
+                >
+              </div>
+            </div>
+
+            <div class="card-right">
+              <div class="img-container">
+                <a
+                  href="https://github.com/GameTechDev/Intel-Texture-Works-Plugin#readme"
+                >
+                  <img
+                    src="https://gametechdev.github.io/assets/img/thumb/Intel-Texture-Works-Plugin.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="box-container project-card"
+          data-project-name="AOIT-Update"
+          data-tags=""
+        >
+          <div class="card-contents">
+            <div class="card-left">
+              <div class="detail-container">
+                <span class="detail">Created: 12/08/2017</span>
+
+                <span
+                  class="detail"
+                  id="card-updated"
+                  data-card-updated="2021-04-12T18:42:35Z"
+                  >Updated: 04/12/2021</span
+                >
+              </div>
+              <h2>
+                <a href="https://github.com/GameTechDev/AOIT-Update#readme"
+                  >AOIT-Update</a
+                >
+              </h2>
+              <p>Adaptive Order Independant Transparency Sample</p>
+              <div class="detail-container"></div>
+              <div></div>
+            </div>
+
+            <div class="card-right">
+              <div class="img-container">
+                <a href="https://github.com/GameTechDev/AOIT-Update#readme">
+                  <img
+                    src="https://gametechdev.github.io/assets/img/thumb/AOIT-Update.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="box-container project-card"
+          data-project-name="FlipModelD3D12"
+          data-tags=""
+        >
+          <div class="card-contents">
+            <div class="card-left">
+              <div class="detail-container">
+                <span class="detail">Created: 01/05/2016</span>
+
+                <span
+                  class="detail"
+                  id="card-updated"
+                  data-card-updated="2021-03-28T11:07:56Z"
+                  >Updated: 03/28/2021</span
+                >
+              </div>
+              <h2>
+                <a href="https://github.com/GameTechDev/FlipModelD3D12#readme"
+                  >FlipModelD3D12</a
+                >
+              </h2>
+              <p>
+                Interactive visualization for understanding swap chains in D3D12
+              </p>
+              <div class="detail-container">
+                <span class="detail"
+                  ><i class="far fa-fw fa-balance-scale"></i>: Apache License
+                  2.0</span
+                >
+              </div>
+              <div>
+                <a
+                  href="https://software.intel.com/en-us/articles/sample-application-for-direct3d-12-flip-model-swap-chains"
+                  class="box-link"
+                  >Article</a
+                >
+              </div>
+            </div>
+
+            <div class="card-right">
+              <div class="img-container">
+                <a href="https://github.com/GameTechDev/FlipModelD3D12#readme">
+                  <img
+                    src="https://gametechdev.github.io/assets/img/thumb/FlipModelD3D12.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="box-container project-card"
+          data-project-name="PracticalVulkan"
+          data-tags="c-plus-plus, khronos, vulkan, vulkan-api"
+        >
+          <div class="card-contents">
+            <div class="card-left">
+              <div class="detail-container">
+                <span class="detail">Created: 08/24/2018</span>
+
+                <span
+                  class="detail"
+                  id="card-updated"
+                  data-card-updated="2021-01-26T00:52:20Z"
+                  >Updated: 01/26/2021</span
+                >
+              </div>
+              <h2>
+                <a href="https://github.com/GameTechDev/PracticalVulkan#readme"
+                  >PracticalVulkan</a
+                >
+              </h2>
+              <p>
+                Repository with code samples for "API without Secrets: The
+                Practical Approach to Vulkan" series of articles.
+              </p>
+              <div class="detail-container">
+                <span class="detail"
+                  ><i class="far fa-fw fa-balance-scale"></i>: Apache License
+                  2.0</span
+                >
+
+                <span class="detail"
+                  ><i class="far fa-fw fa-hashtag"></i>: c-plus-plus
+                  <span class="tag-spacer">|</span> khronos
+                  <span class="tag-spacer">|</span> vulkan
+                  <span class="tag-spacer">|</span> vulkan-api
+                </span>
+              </div>
+              <div></div>
+            </div>
+
+            <div class="card-right">
+              <div class="img-container">
+                <a href="https://github.com/GameTechDev/PracticalVulkan#readme">
+                  <img
+                    src="https://gametechdev.github.io/assets/img/thumb/PracticalVulkan.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="box-container project-card"
+          data-project-name="TAA"
+          data-tags="antialiasing, directx12, graphics, sample"
+        >
+          <div class="card-contents">
+            <div class="card-left">
+              <div class="detail-container">
+                <span class="detail">Created: 12/22/2020</span>
+
+                <span
+                  class="detail"
+                  id="card-updated"
+                  data-card-updated="2020-12-22T00:49:20Z"
+                  >Updated: 12/22/2020</span
+                >
+              </div>
+              <h2>
+                <a href="https://github.com/GameTechDev/TAA#readme">TAA</a>
+              </h2>
+              <p>Intel® Graphics Optimized Temporal Anti-Aliasing (TAA)</p>
+              <div class="detail-container">
+                <span class="detail"
+                  ><i class="far fa-fw fa-balance-scale"></i>: Other</span
+                >
+
+                <span class="detail"
+                  ><i class="far fa-fw fa-hashtag"></i>: antialiasing
+                  <span class="tag-spacer">|</span> directx12
+                  <span class="tag-spacer">|</span> graphics
+                  <span class="tag-spacer">|</span> sample
+                </span>
+              </div>
+              <div></div>
+            </div>
+
+            <div class="card-right">
+              <div class="img-container">
+                <a href="https://github.com/GameTechDev/TAA#readme">
+                  <img
+                    src="https://gametechdev.github.io/assets/img/thumb/TAA.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="box-container project-card"
+          data-project-name="MaskedOcclusionCulling"
+          data-tags=""
+        >
+          <div class="card-contents">
+            <div class="card-left">
+              <div class="detail-container">
+                <span class="detail">Created: 06/14/2016</span>
+
+                <span
+                  class="detail"
+                  id="card-updated"
+                  data-card-updated="2020-11-13T12:13:19Z"
+                  >Updated: 11/13/2020</span
+                >
+              </div>
+              <h2>
+                <a
+                  href="https://github.com/GameTechDev/MaskedOcclusionCulling#readme"
+                  >MaskedOcclusionCulling</a
+                >
+              </h2>
+              <p>
+                Example code for the research paper "Masked Software Occlusion
+                Culling"; implements an efficient alternative to the
+                hierarchical depth buffer algorithm.
+              </p>
+              <div class="detail-container">
+                <span class="detail"
+                  ><i class="far fa-fw fa-balance-scale"></i>: Apache License
+                  2.0</span
+                >
+              </div>
+              <div>
+                <a
+                  href="https://software.intel.com/en-us/articles/masked-software-occlusion-culling"
+                  class="box-link"
+                  >Article</a
+                >
+              </div>
+            </div>
+
+            <div class="card-right">
+              <div class="img-container">
+                <a
+                  href="https://github.com/GameTechDev/MaskedOcclusionCulling#readme"
+                >
+                  <img
+                    src="https://gametechdev.github.io/assets/img/thumb/MaskedOcclusionCulling.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="box-container project-card"
+          data-project-name="Multi-Adapter-Particles"
+          data-tags=""
+        >
+          <div class="card-contents">
+            <div class="card-left">
+              <div class="detail-container">
+                <span class="detail">Created: 03/05/2020</span>
+
+                <span
+                  class="detail"
+                  id="card-updated"
+                  data-card-updated="2020-08-31T17:00:49Z"
+                  >Updated: 08/31/2020</span
+                >
+              </div>
+              <h2>
+                <a
+                  href="https://github.com/GameTechDev/Multi-Adapter-Particles#readme"
+                  >Multi-Adapter-Particles</a
+                >
+              </h2>
+              <p>
+                Demonstration of Integrated + Discrete Multi-Adapter modified
+                from Microsoft's D3D12nBodyGravity
+              </p>
+              <div class="detail-container">
+                <span class="detail"
+                  ><i class="far fa-fw fa-balance-scale"></i>: MIT License</span
+                >
+              </div>
+              <div></div>
+            </div>
+
+            <div class="card-right">
+              <div class="img-container">
+                <a
+                  href="https://github.com/GameTechDev/Multi-Adapter-Particles#readme"
+                >
+                  <img
+                    src="https://gametechdev.github.io/assets/img/thumb/Multi-Adapter-Particles.jpeg"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="box-container project-card"
+          data-project-name="OcclusionCulling"
+          data-tags=""
+        >
+          <div class="card-contents">
+            <div class="card-left">
+              <div class="detail-container">
+                <span class="detail">Created: 01/20/2016</span>
+
+                <span
+                  class="detail"
+                  id="card-updated"
+                  data-card-updated="2020-07-21T18:45:07Z"
+                  >Updated: 07/21/2020</span
+                >
+              </div>
+              <h2>
+                <a href="https://github.com/GameTechDev/OcclusionCulling#readme"
+                  >OcclusionCulling</a
+                >
+              </h2>
+              <p>
+                Demonstrates a software (CPU) based approach to occllusion
+                culling using multi-threading and SIMD instructions to improve
+                performance.
+              </p>
+              <div class="detail-container">
+                <span class="detail"
+                  ><i class="far fa-fw fa-balance-scale"></i>: Apache License
+                  2.0</span
+                >
+              </div>
+              <div></div>
+            </div>
+
+            <div class="card-right">
+              <div class="img-container">
+                <a
+                  href="https://github.com/GameTechDev/OcclusionCulling#readme"
+                >
+                  <img
+                    src="https://gametechdev.github.io/assets/img/thumb/OcclusionCulling.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="box-container project-card"
+          data-project-name="VRS-DoF"
+          data-tags=""
+        >
+          <div class="card-contents">
+            <div class="card-left">
+              <div class="detail-container">
+                <span class="detail">Created: 02/21/2020</span>
+
+                <span
+                  class="detail"
+                  id="card-updated"
+                  data-card-updated="2020-05-29T13:15:10Z"
+                  >Updated: 05/29/2020</span
+                >
+              </div>
+              <h2>
+                <a href="https://github.com/GameTechDev/VRS-DoF#readme"
+                  >VRS-DoF</a
+                >
+              </h2>
+              <p>Variable Rate Shading and Depth of Field</p>
+              <div class="detail-container">
+                <span class="detail"
+                  ><i class="far fa-fw fa-balance-scale"></i>: Other</span
+                >
+              </div>
+              <div></div>
+            </div>
+
+            <div class="card-right">
+              <div class="img-container">
+                <a href="https://github.com/GameTechDev/VRS-DoF#readme">
+                  <img
+                    src="https://gametechdev.github.io/assets/img/thumb/VRS-DoF.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="box-container project-card"
+          data-project-name="asteroids_d3d12"
+          data-tags=""
+        >
+          <div class="card-contents">
+            <div class="card-left">
+              <div class="detail-container">
+                <span class="detail">Created: 09/18/2015</span>
+
+                <span
+                  class="detail"
+                  id="card-updated"
+                  data-card-updated="2020-03-27T18:45:39Z"
+                  >Updated: 03/27/2020</span
+                >
+              </div>
+              <h2>
+                <a href="https://github.com/GameTechDev/asteroids_d3d12#readme"
+                  >asteroids_d3d12</a
+                >
+              </h2>
+              <p>Intel Asteroids DirectX 12 Sample</p>
+              <div class="detail-container">
+                <span class="detail"
+                  ><i class="far fa-fw fa-balance-scale"></i>: Apache License
+                  2.0</span
+                >
+              </div>
+              <div></div>
+            </div>
+
+            <div class="card-right">
+              <div class="img-container">
+                <a href="https://github.com/GameTechDev/asteroids_d3d12#readme">
+                  <img
+                    src="https://gametechdev.github.io/assets/img/thumb/asteroids_d3d12.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="box-container project-card"
+          data-project-name="CMAA2"
+          data-tags=""
+        >
+          <div class="card-contents">
+            <div class="card-left">
+              <div class="detail-container">
+                <span class="detail">Created: 09/03/2018</span>
+
+                <span
+                  class="detail"
+                  id="card-updated"
+                  data-card-updated="2019-12-05T16:50:00Z"
+                  >Updated: 12/05/2019</span
+                >
+              </div>
+              <h2>
+                <a href="https://github.com/GameTechDev/CMAA2#readme">CMAA2</a>
+              </h2>
+              <p>Conservative Morphological Anti-Aliasing 2.0</p>
+              <div class="detail-container">
+                <span class="detail"
+                  ><i class="far fa-fw fa-balance-scale"></i>: Apache License
+                  2.0</span
+                >
+              </div>
+              <div>
+                <a
+                  href="https://software.intel.com/en-us/articles/conservative-morphological-anti-aliasing-20"
+                  class="box-link"
+                  >Article</a
+                >
+              </div>
+            </div>
+
+            <div class="card-right">
+              <div class="img-container">
+                <a href="https://github.com/GameTechDev/CMAA2#readme">
+                  <img
+                    src="https://gametechdev.github.io/assets/img/thumb/CMAA2.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="box-container project-card"
+          data-project-name="D3D12VariableRateShading"
+          data-tags=""
+        >
+          <div class="card-contents">
+            <div class="card-left">
+              <div class="detail-container">
+                <span class="detail">Created: 10/16/2019</span>
+
+                <span
+                  class="detail"
+                  id="card-updated"
+                  data-card-updated="2019-10-16T15:01:43Z"
+                  >Updated: 10/16/2019</span
+                >
+              </div>
+              <h2>
+                <a
+                  href="https://github.com/GameTechDev/D3D12VariableRateShading#readme"
+                  >D3D12VariableRateShading</a
+                >
+              </h2>
+              <p>
+                A simple D3D12 example demonstrating how to use Intel Tier 1
+                Variable Rate Shading
+              </p>
+              <div class="detail-container">
+                <span class="detail"
+                  ><i class="far fa-fw fa-balance-scale"></i>: MIT License</span
+                >
+              </div>
+              <div></div>
+            </div>
+
+            <div class="card-right">
+              <div class="img-container">
+                <a
+                  href="https://github.com/GameTechDev/D3D12VariableRateShading#readme"
+                >
+                  <img
+                    src="https://gametechdev.github.io/assets/img/thumb/D3D12VariableRateShading.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="box-container project-card"
+          data-project-name="MetricsDiscoveryHelper"
+          data-tags=""
+        >
+          <div class="card-contents">
+            <div class="card-left">
+              <div class="detail-container">
+                <span class="detail">Created: 08/22/2018</span>
+
+                <span
+                  class="detail"
+                  id="card-updated"
+                  data-card-updated="2019-09-19T18:06:52Z"
+                  >Updated: 09/19/2019</span
+                >
+              </div>
+              <h2>
+                <a
+                  href="https://github.com/GameTechDev/MetricsDiscoveryHelper#readme"
+                  >MetricsDiscoveryHelper</a
+                >
+              </h2>
+              <p>
+                A wrapper for Intel(R) MetricsDiscovery API that simplifies some
+                common tasks and provides a more unified interface across
+                different graphics APIs.
+              </p>
+              <div class="detail-container">
+                <span class="detail"
+                  ><i class="far fa-fw fa-balance-scale"></i>: MIT License</span
+                >
+              </div>
+              <div></div>
+            </div>
+
+            <div class="card-right">
+              <div class="img-container">
+                <a
+                  href="https://github.com/GameTechDev/MetricsDiscoveryHelper#readme"
+                >
+                  <img
+                    src="https://gametechdev.github.io/assets/img/thumb/MetricsDiscoveryHelper.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="box-container project-card"
+          data-project-name="AdaptiveSync"
+          data-tags=""
+        >
+          <div class="card-contents">
+            <div class="card-left">
+              <div class="detail-container">
+                <span class="detail">Created: 09/12/2019</span>
+
+                <span
+                  class="detail"
+                  id="card-updated"
+                  data-card-updated="2019-09-17T16:25:15Z"
+                  >Updated: 09/17/2019</span
+                >
+              </div>
+              <h2>
+                <a href="https://github.com/GameTechDev/AdaptiveSync#readme"
+                  >AdaptiveSync</a
+                >
+              </h2>
+              <p>Demo and Library for Adaptive Sync</p>
+              <div class="detail-container">
+                <span class="detail"
+                  ><i class="far fa-fw fa-balance-scale"></i>: MIT License</span
+                >
+              </div>
+              <div></div>
+            </div>
+
+            <div class="card-right">
+              <div class="img-container">
+                <a href="https://github.com/GameTechDev/AdaptiveSync#readme">
+                  <img
+                    src="https://gametechdev.github.io/assets/img/thumb/AdaptiveSync.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="box-container project-card"
+          data-project-name="IntelShaderAnalyzer"
+          data-tags=""
+        >
+          <div class="card-contents">
+            <div class="card-left">
+              <div class="detail-container">
+                <span class="detail">Created: 03/19/2019</span>
+
+                <span
+                  class="detail"
+                  id="card-updated"
+                  data-card-updated="2019-03-22T15:43:04Z"
+                  >Updated: 03/22/2019</span
+                >
+              </div>
+              <h2>
+                <a
+                  href="https://github.com/GameTechDev/IntelShaderAnalyzer#readme"
+                  >IntelShaderAnalyzer</a
+                >
+              </h2>
+              <p>Command line tool for offline shader ISA inspection.</p>
+              <div class="detail-container">
+                <span class="detail"
+                  ><i class="far fa-fw fa-balance-scale"></i>: MIT License</span
+                >
+              </div>
+              <div></div>
+            </div>
+
+            <div class="card-right">
+              <div class="img-container">
+                <a
+                  href="https://github.com/GameTechDev/IntelShaderAnalyzer#readme"
+                >
+                  <img
+                    src="https://gametechdev.github.io/assets/img/thumb/IntelShaderAnalyzer.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="box-container project-card"
+          data-project-name="SPIRV-Cross"
+          data-tags=""
+        >
+          <div class="card-contents">
+            <div class="card-left">
+              <div class="detail-container">
+                <span class="detail">Created: 05/21/2018</span>
+
+                <span
+                  class="detail"
+                  id="card-updated"
+                  data-card-updated="2019-02-14T09:32:40Z"
+                  >Updated: 02/14/2019</span
+                >
+              </div>
+              <h2>
+                <a href="https://github.com/GameTechDev/SPIRV-Cross#readme"
+                  >SPIRV-Cross</a
+                >
+              </h2>
+              <p>An experimental ISPC backend for SPIRV-Cross</p>
+              <div class="detail-container">
+                <span class="detail"
+                  ><i class="far fa-fw fa-balance-scale"></i>: Apache License
+                  2.0</span
+                >
+              </div>
+              <div></div>
+            </div>
+
+            <div class="card-right">
+              <div class="img-container">
+                <a href="https://github.com/GameTechDev/SPIRV-Cross#readme">
+                  <img
+                    src="https://gametechdev.github.io/assets/img/thumb/SPIRV-Cross.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="box-container project-card"
+          data-project-name="stardust_vulkan"
+          data-tags=""
+        >
+          <div class="card-contents">
+            <div class="card-left">
+              <div class="detail-container">
+                <span class="detail">Created: 04/19/2016</span>
+
+                <span
+                  class="detail"
+                  id="card-updated"
+                  data-card-updated="2019-01-15T09:55:25Z"
+                  >Updated: 01/15/2019</span
+                >
+              </div>
+              <h2>
+                <a href="https://github.com/GameTechDev/stardust_vulkan#readme"
+                  >stardust_vulkan</a
+                >
+              </h2>
+              <p>
+                The Stardust sample application uses the Vulkan graphics API to
+                efficiently render a cloud of animated particles.
+              </p>
+              <div class="detail-container">
+                <span class="detail"
+                  ><i class="far fa-fw fa-balance-scale"></i>: Apache License
+                  2.0</span
+                >
+              </div>
+              <div></div>
+            </div>
+
+            <div class="card-right">
+              <div class="img-container">
+                <a href="https://github.com/GameTechDev/stardust_vulkan#readme">
+                  <img
+                    src="https://gametechdev.github.io/assets/img/thumb/stardust_vulkan.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="box-container project-card"
+          data-project-name="MetricsGui"
+          data-tags=""
+        >
+          <div class="card-contents">
+            <div class="card-left">
+              <div class="detail-container">
+                <span class="detail">Created: 12/15/2017</span>
+
+                <span
+                  class="detail"
+                  id="card-updated"
+                  data-card-updated="2018-11-13T22:19:36Z"
+                  >Updated: 11/13/2018</span
+                >
+              </div>
+              <h2>
+                <a href="https://github.com/GameTechDev/MetricsGui#readme"
+                  >MetricsGui</a
+                >
+              </h2>
+              <p>
+                Library of ImGui controls for displaying performance metrics.
+              </p>
+              <div class="detail-container">
+                <span class="detail"
+                  ><i class="far fa-fw fa-balance-scale"></i>: MIT License</span
+                >
+              </div>
+              <div></div>
+            </div>
+
+            <div class="card-right">
+              <div class="img-container">
+                <a href="https://github.com/GameTechDev/MetricsGui#readme">
+                  <img
+                    src="https://gametechdev.github.io/assets/img/thumb/MetricsGui.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="box-container project-card"
+          data-project-name="DX12-Multi-Adapter"
+          data-tags=""
+        >
+          <div class="card-contents">
+            <div class="card-left">
+              <div class="detail-container">
+                <span class="detail">Created: 09/11/2015</span>
+
+                <span
+                  class="detail"
+                  id="card-updated"
+                  data-card-updated="2018-11-08T18:02:10Z"
+                  >Updated: 11/08/2018</span
+                >
+              </div>
+              <h2>
+                <a
+                  href="https://github.com/GameTechDev/DX12-Multi-Adapter#readme"
+                  >DX12-Multi-Adapter</a
+                >
+              </h2>
+              <p>
+                DirectX 12 Explicit Heterogeneous Multi-adapter Sample
+                implementing Split Frame Rendering
+              </p>
+              <div class="detail-container">
+                <span class="detail"
+                  ><i class="far fa-fw fa-balance-scale"></i>: Apache License
+                  2.0</span
+                >
+              </div>
+              <div>
+                <a
+                  href="https://software.intel.com/en-us/articles/multi-adapter-support-in-directx-12"
+                  class="box-link"
+                  >Article</a
+                >
+              </div>
+            </div>
+
+            <div class="card-right">
+              <div class="img-container">
+                <a
+                  href="https://github.com/GameTechDev/DX12-Multi-Adapter#readme"
+                >
+                  <img
+                    src="https://gametechdev.github.io/assets/img/thumb/DX12-Multi-Adapter.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="box-container project-card"
+          data-project-name="DynamicCheckerboardRendering"
+          data-tags=""
+        >
+          <div class="card-contents">
+            <div class="card-left">
+              <div class="detail-container">
+                <span class="detail">Created: 08/08/2018</span>
+
+                <span
+                  class="detail"
+                  id="card-updated"
+                  data-card-updated="2018-11-05T20:35:36Z"
+                  >Updated: 11/05/2018</span
+                >
+              </div>
+              <h2>
+                <a
+                  href="https://github.com/GameTechDev/DynamicCheckerboardRendering#readme"
+                  >DynamicCheckerboardRendering</a
+                >
+              </h2>
+              <p>
+                Checkerboard Rendering and Dynamic Resolution Rendering in the
+                DX12 MiniEngine
+              </p>
+              <div class="detail-container">
+                <span class="detail"
+                  ><i class="far fa-fw fa-balance-scale"></i>: MIT License</span
+                >
+              </div>
+              <div>
+                <a
+                  href="https://software.intel.com/en-us/articles/checkerboard-rendering-for-real-time-upscaling-on-intel-integrated-graphics-v-12"
+                  class="box-link"
+                  >Article</a
+                >
+              </div>
+            </div>
+
+            <div class="card-right">
+              <div class="img-container">
+                <a
+                  href="https://github.com/GameTechDev/DynamicCheckerboardRendering#readme"
+                >
+                  <img
+                    src="https://gametechdev.github.io/assets/img/thumb/DynamicCheckerboardRendering.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="box-container project-card"
+          data-project-name="RCRaceland"
+          data-tags=""
+        >
+          <div class="card-contents">
+            <div class="card-left">
+              <div class="detail-container">
+                <span class="detail">Created: 11/22/2016</span>
+
+                <span
+                  class="detail"
+                  id="card-updated"
+                  data-card-updated="2018-05-17T23:11:33Z"
+                  >Updated: 05/17/2018</span
+                >
+              </div>
+              <h2>
+                <a href="https://github.com/GameTechDev/RCRaceland#readme"
+                  >RCRaceland</a
+                >
+              </h2>
+              <p>
+                Unreal Engine 4 sample showing how to take advantage of the CPU
+                for more realistic scenes
+              </p>
+              <div class="detail-container">
+                <span class="detail"
+                  ><i class="far fa-fw fa-balance-scale"></i>: MIT License</span
+                >
+              </div>
+              <div></div>
+            </div>
+
+            <div class="card-right">
+              <div class="img-container">
+                <a href="https://github.com/GameTechDev/RCRaceland#readme">
+                  <img
+                    src="https://gametechdev.github.io/assets/img/thumb/RCRaceland.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="box-container project-card"
+          data-project-name="UnrealCapabilityDetect"
+          data-tags=""
+        >
+          <div class="card-contents">
+            <div class="card-left">
+              <div class="detail-container">
+                <span class="detail">Created: 04/27/2018</span>
+
+                <span
+                  class="detail"
+                  id="card-updated"
+                  data-card-updated="2018-04-27T19:09:32Z"
+                  >Updated: 04/27/2018</span
+                >
+              </div>
+              <h2>
+                <a
+                  href="https://github.com/GameTechDev/UnrealCapabilityDetect#readme"
+                  >UnrealCapabilityDetect</a
+                >
+              </h2>
+              <p>A plugin for system capability detect in Unreal Engine 4</p>
+              <div class="detail-container">
+                <span class="detail"
+                  ><i class="far fa-fw fa-balance-scale"></i>: MIT License</span
+                >
+              </div>
+              <div></div>
+            </div>
+
+            <div class="card-right">
+              <div class="img-container">
+                <a
+                  href="https://github.com/GameTechDev/UnrealCapabilityDetect#readme"
+                >
+                  <img
+                    src="https://gametechdev.github.io/assets/img/thumb/UnrealCapabilityDetect.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="box-container project-card"
+          data-project-name="ISPC-DirectX-Graphics-Samples"
+          data-tags="directx12, graphics, ispc, sample"
+        >
+          <div class="card-contents">
+            <div class="card-left">
+              <div class="detail-container">
+                <span class="detail">Created: 08/11/2017</span>
+
+                <span
+                  class="detail"
+                  id="card-updated"
+                  data-card-updated="2017-10-19T09:07:02Z"
+                  >Updated: 10/19/2017</span
+                >
+              </div>
+              <h2>
+                <a
+                  href="https://github.com/GameTechDev/ISPC-DirectX-Graphics-Samples#readme"
+                  >ISPC-DirectX-Graphics-Samples</a
+                >
+              </h2>
+              <p>
+                Using ISPC, Microsofts nBodyGravity DX12 sample has been
+                modified to provide a fully vectorized and fully threaded CPU
+                based backend for the compute part of the workload.
+              </p>
+              <div class="detail-container">
+                <span class="detail"
+                  ><i class="far fa-fw fa-balance-scale"></i>: MIT License</span
+                >
+
+                <span class="detail"
+                  ><i class="far fa-fw fa-hashtag"></i>: directx12
+                  <span class="tag-spacer">|</span> graphics
+                  <span class="tag-spacer">|</span> ispc
+                  <span class="tag-spacer">|</span> sample
+                </span>
+              </div>
+              <div></div>
+            </div>
+
+            <div class="card-right">
+              <div class="img-container">
+                <a
+                  href="https://github.com/GameTechDev/ISPC-DirectX-Graphics-Samples#readme"
+                >
+                  <img
+                    src="https://gametechdev.github.io/assets/img/thumb/ISPC-DirectX-Graphics-Samples.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <h4 id="no-results" style="display: none">
+          No results found. Please alter your search settings and/or term.
+        </h4>
+      </section>
+    </main>
+    <footer>
+      <!--IGHF Footer-->
+      <!--GAATversion='50recode.2' date='09/11/2017 08:00:00' Version='2.0':CharacterEncoding:utf8-->
+      <div id="recode50footer"></div>
+      <script type="text/javascript">
+        /*<![CDATA[*/
+        INTELNAV = window.INTELNAV || {};
+        INTELNAV.renderSettingsFooter = {
+          version: "2.0 - 03/12/2017 08:00:00",
+          OutputId: "gf_default",
+        };
+        /*]]>*/
+      </script>
+      <noscript>
+        <div id="smallfootprint-footer">
+          <ul>
+            <li>©Intel Corporation</li>
+            <li>
+              <a
+                href="https://www.intel.com/content/www/us/en/legal/terms-of-use.html"
+                target=""
+                >Terms of Use</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.intel.com/content/www/us/en/legal/trademarks.html"
+                target=""
+                >*Trademarks</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.intel.com/content/www/us/en/privacy/intel-privacy-notice.html"
+                target=""
+                >Privacy</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.intel.com/content/www/us/en/privacy/intel-cookie-notice.html"
+                target=""
+                >Cookies</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.intel.com/content/www/us/en/policy/policy-human-trafficking-and-slavery.html"
+                target=""
+                >Supply Chain Transparency
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.intel.com/content/www/us/en/siteindex.html"
+                target=""
+                >Site Map</a
+              >
+            </li>
+          </ul>
+        </div>
+      </noscript>
+      <!--/IGHF Footer-->
+    </footer>
+
+    <script type="text/javascript">
+      //configure tms
+      var wapLocalCode = "us-en"; //dynamically set per localized site, see mapping table for values
+      var wapSection = "gametechdev"; //section, specific for each site
+      //load tms
+      (function () {
+        var host =
+          window.document.location.protocol == "http:"
+            ? "http://www.intel.com"
+            : "https://www.intel.com";
+        var url = host + "/content/dam/www/global/wap/tms-loader.js"; //wap file url
+        var po = document.createElement("script");
+        po.type = "text/javascript";
+        po.async = true;
+        po.src = url;
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(po, s);
+      })();
+    </script>
+  </body>
+</html>

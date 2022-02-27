@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script
+      src="https://kit.fontawesome.com/59ba4b56ec.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="http://code.jquery.com/jquery-migrate-3.0.0.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <script src="/assets/js/script-min.js"></script>
+    <!--IGHF Loader-->
+    <!--[if le IE 9]>
+      <script
+        type="text/javascript"
+        src="https://www.intel.com/ighf/50recode.2/js/headerchooser.js"
+        async
+        defer
+      ></script>
+    <![endif]-->
+    <!--[if gt IE 9]><!-->
+    <script
+      type="text/javascript"
+      src="https://www.intel.com/ighf/50recode.2/js/headerchooser.js"
+      async
+    ></script>
+    <!--<![endif]-->
+    <script>
+      INTELNAV = window.INTELNAV || {};
+      INTELNAV.renderSettings = {
+        version: "2.0 - 03/12/2017 08:00:00",
+        textDirection: "--",
+        culture: "--",
+        OutputId: "--",
+      };
+    </script>
+    <!--/IGHF Loader-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://gametechdev.github.io/assets/css/main.css"
+    />
+
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+    <title>Documentation | GameTechDev</title>
+    <meta name="generator" content="Jekyll v4.2.0" />
+    <meta property="og:title" content="Documentation" />
+    <meta property="og:locale" content="en_US" />
+    <meta
+      name="description"
+      content="Helping developers create the best gaming experiences on Intel graphics processors."
+    />
+    <meta
+      property="og:description"
+      content="Helping developers create the best gaming experiences on Intel graphics processors."
+    />
+    <link
+      rel="canonical"
+      href="https://gametechdev.github.io/documentation.html"
+    />
+    <meta
+      property="og:url"
+      content="https://gametechdev.github.io/documentation.html"
+    />
+    <meta property="og:site_name" content="GameTechDev" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="twitter:title" content="Documentation" />
+    <meta name="twitter:site" content="@intel" />
+    <script type="application/ld+json">
+      {
+        "description": "Helping developers create the best gaming experiences on Intel graphics processors.",
+        "headline": "Documentation",
+        "url": "https://gametechdev.github.io/documentation.html",
+        "@type": "WebPage",
+        "@context": "https://schema.org"
+      }
+    </script>
+    <!-- End Jekyll SEO tag -->
+  </head>
+
+  <body>
+    <!--IGHF Header-->
+    <!--GAATversion='50recode.2' date='09/11/2017 08:00:00' Version='2.0':CharacterEncoding:utf8-->
+    <div id="recode50header" class="no-animate"></div>
+    <script type="text/javascript">
+      /*<![CDATA[*/
+      INTELNAV = window.INTELNAV || {};
+      INTELNAV.renderSettings = {
+        version: "2.0 - 03/12/2017 08:00:00",
+        textDirection: "ltr",
+        culture: "en_US",
+        OutputId: "default",
+      };
+      /*]]>*/
+    </script>
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://www.intel.com/ighf/50recode.2/css/ltr_nojsheader.css"
+        type="text/css"
+      />
+      <div id="smallfootprint-header">
+        <a
+          href="https://www.intel.com/content/www/us/en/homepage.html"
+          class="gaat40-logo"
+          title="Logo - Intel"
+        ></a>
+        <form
+          method="get"
+          id="user-bar-searchbox-form"
+          name="user-bar-searchbox-form"
+          action="https://www.intel.com/content/www/us/en/search.html"
+        >
+          <fieldset>
+            <legend></legend>
+            <label for="input-search">Search</label
+            ><input type="text" id="input-search" name="keyword" /><input
+              type="submit"
+              id="input-submit"
+              name="input-submit"
+              value="Search"
+            />
+          </fieldset>
+        </form>
+      </div>
+    </noscript>
+    <!--/IGHF Header-->
+    <header>
+      <div class="header-left">
+        <a href="https://gametechdev.github.io">
+          <div class="logo">
+            <img
+              src="https://gametechdev.github.io/assets/img/logo.svg"
+              alt="Intel®"
+            />
+          </div>
+        </a>
+
+        <h1><a href="https://gametechdev.github.io">GameTechDev</a></h1>
+      </div>
+
+      <div id="mobile-menu-toggle">
+        <i id="menu-i" class="far fa-fw fa-bars" onClick="menuToggler()"></i>
+        <i
+          id="close-i"
+          class="far fa-fw fa-times"
+          onClick="menuToggler()"
+          style="display: none"
+        ></i>
+      </div>
+
+      <nav id="header-nav">
+        <ul>
+          <li class="">
+            <a href="https://gametechdev.github.io/projects">Projects</a>
+          </li>
+
+          <li class="active">
+            <a href="https://gametechdev.github.io/documentation"
+              >Documentation</a
+            >
+          </li>
+
+          <li class="">
+            <a href="https://gametechdev.github.io/tools-and-libraries"
+              >Tools and Libraries</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Documentation</h1>
+      <section class="box-container">
+        <h1 id="graphics-developer-guides">Graphics Developer Guides</h1>
+
+        <h4
+          id="intel-processor-graphics-x-lp-api-developer-and-optimization-guide"
+        >
+          <a
+            href="https://software.intel.com/content/www/us/en/develop/documentation/graphics-xe-lp-api-developer-optimization-guide/top.html"
+            >Intel® Processor Graphics Xᵉ-LP API Developer and Optimization
+            Guide</a
+          >
+        </h4>
+
+        <p>
+          This document presents developer guidance and optimization methods for
+          the graphics hardware architecture of Intel® Processor Graphics Xᵉ-LP.
+          It provides developers best practices to most effectively harness the
+          architecture’s capabilities and peak performance. The document also
+          provides specific API guidance for using the latest graphics APIs on
+          Intel Processor Graphics Xᵉ-LP.
+        </p>
+
+        <h4 id="intel-processor-graphics">
+          <a
+            href="https://software.intel.com/content/www/us/en/develop/articles/intel-graphics-developers-guides.html"
+            >Intel® Processor Graphics</a
+          >
+        </h4>
+
+        <p>
+          Developer guides for older generations of Intel® processor graphics.
+        </p>
+      </section>
+      <section class="box-container">
+        <h1 id="cpu-developer-guides">CPU Developer Guides</h1>
+        <h4 id="intel-64-and-ia-32-architectures-software-developer-manuals">
+          <a
+            href="https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html"
+            >Intel® 64 and IA-32 Architectures Software Developer Manuals</a
+          >
+        </h4>
+
+        <p>
+          Collection of docuemmentation describing the architecture and
+          programming environment of the Intel® 64 and IA-32 architectures.
+        </p>
+
+        <h4 id="intel-64-and-ia-32-architectures-optimization-reference-manual">
+          <a
+            href="https://www.intel.com/content/www/us/en/develop/download/intel-64-and-ia-32-architectures-optimization-reference-manual.html"
+            >Intel® 64 and IA-32 Architectures Optimization Reference Manual</a
+          >
+        </h4>
+
+        <p>
+          The Intel® 64 and IA-32 Architectures Optimization Reference Manual
+          describes how to optimize soft-ware to take advantage of the
+          performance characteristics of IA-32 and Intel 64 architecture
+          processors.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <!--IGHF Footer-->
+      <!--GAATversion='50recode.2' date='09/11/2017 08:00:00' Version='2.0':CharacterEncoding:utf8-->
+      <div id="recode50footer"></div>
+      <script type="text/javascript">
+        /*<![CDATA[*/
+        INTELNAV = window.INTELNAV || {};
+        INTELNAV.renderSettingsFooter = {
+          version: "2.0 - 03/12/2017 08:00:00",
+          OutputId: "gf_default",
+        };
+        /*]]>*/
+      </script>
+      <noscript>
+        <div id="smallfootprint-footer">
+          <ul>
+            <li>©Intel Corporation</li>
+            <li>
+              <a
+                href="https://www.intel.com/content/www/us/en/legal/terms-of-use.html"
+                target=""
+                >Terms of Use</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.intel.com/content/www/us/en/legal/trademarks.html"
+                target=""
+                >*Trademarks</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.intel.com/content/www/us/en/privacy/intel-privacy-notice.html"
+                target=""
+                >Privacy</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.intel.com/content/www/us/en/privacy/intel-cookie-notice.html"
+                target=""
+                >Cookies</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.intel.com/content/www/us/en/policy/policy-human-trafficking-and-slavery.html"
+                target=""
+                >Supply Chain Transparency
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.intel.com/content/www/us/en/siteindex.html"
+                target=""
+                >Site Map</a
+              >
+            </li>
+          </ul>
+        </div>
+      </noscript>
+      <!--/IGHF Footer-->
+    </footer>
+
+    <script type="text/javascript">
+      //configure tms
+      var wapLocalCode = "us-en"; //dynamically set per localized site, see mapping table for values
+      var wapSection = "gametechdev"; //section, specific for each site
+      //load tms
+      (function () {
+        var host =
+          window.document.location.protocol == "http:"
+            ? "http://www.intel.com"
+            : "https://www.intel.com";
+        var url = host + "/content/dam/www/global/wap/tms-loader.js"; //wap file url
+        var po = document.createElement("script");
+        po.type = "text/javascript";
+        po.async = true;
+        po.src = url;
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(po, s);
+      })();
+    </script>
+  </body>
+</html>
